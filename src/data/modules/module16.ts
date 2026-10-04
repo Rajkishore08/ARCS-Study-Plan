@@ -1,0 +1,281 @@
+import { Module } from '../../types/learning';
+
+export const module16: Module = {
+  id: 'module-16',
+  number: 16,
+  title: 'ARCS Integrated Technology Project',
+  category: 'Capstone & Full-Stack Integration',
+  daysRange: 'Days 76–80',
+  theme: 'From Technology Learner to Problem Solver',
+  goal: 'This is the capstone closure module for the complete 80-day program. Students synthesize everything learned across AI, AR, VR, IoT, Satellite/Spatial, Robotics, Drones, and 3D Printing to build an integrated real-world solution MVP.',
+  bannerImage: '/assets/banners/module-16.jpg',
+  estimatedHours: 10,
+  days: [
+    {
+      id: 'day-76',
+      dayNumber: 76,
+      moduleDayNumber: 1,
+      title: 'The ARCS Way of Thinking',
+      theme: 'Learn',
+      duration: '45 min',
+      objective: 'Review the 7 foundational ARCS technologies and adopt the problem-first mindset: identify the problem before selecting the technology.',
+      sections: [
+        {
+          type: 'heading',
+          title: 'Learn: The ARCS Technology Matrix',
+        },
+        {
+          type: 'concept',
+          title: 'The Golden Rule of Engineering',
+          content: 'Do NOT ask: "Which technology should I use?" Instead ask: "What real problem am I trying to solve?" Then choose the appropriate technologies.',
+        },
+        {
+          type: 'learning',
+          title: 'The 7 ARCS Technologies & Their Superpowers',
+          subtitle: 'What can each technology do?',
+          items: [
+            'AI (Artificial Intelligence): Understand patterns, recognize imagery/text, generate content, and make automated decisions.',
+            'AR (Augmented Reality): Overlay digital annotations, interactive 3D models, and telemetry onto the physical world.',
+            'VR (Virtual Reality): Create fully immersive simulated environments for safe exploration, training, and testing.',
+            'IoT (Internet of Things): Sense physical variables (temperature, moisture, light) and transmit telemetry continuously.',
+            'Satellite & Spatial: Observe macro-scale Earth changes from orbit and map geographic coordinates.',
+            'Robotics: Sense surroundings, execute logic, and perform autonomous physical movement or manipulation.',
+            'Drones: Observe, inspect, and survey inaccessible locations and terrain from aerial perspectives.',
+            '3D Printing: Transform digital geometric CAD models into tangible custom physical hardware.',
+          ],
+        },
+        {
+          type: 'explore',
+          title: 'Multi-Technology Synergy',
+          content: 'How can combining two or more technologies (e.g. Drones + AI, or IoT + AR, or Satellite + Robotics) solve problems that no single technology could solve alone?',
+        },
+        {
+          type: 'reflection',
+          title: 'Inventor Mindset Reflection',
+          content: 'Reflect on how your perspective on technology has transformed from consuming apps to engineering holistic physical-digital solutions.',
+        },
+      ],
+    },
+    {
+      id: 'day-77',
+      dayNumber: 77,
+      moduleDayNumber: 2,
+      title: 'Find a Real Problem',
+      theme: 'Explore',
+      duration: '45 min',
+      objective: 'Identify a high-impact, authentic real-world problem across vital community or industrial sectors.',
+      sections: [
+        {
+          type: 'heading',
+          title: 'Learn: Real-World Problem Discovery',
+        },
+        {
+          type: 'concept',
+          title: 'Core Problem Domains',
+          subtitle: 'Where can your ARCS capstone create impact?',
+          items: [
+            'Agriculture: Irrigation water conservation, early pest/disease detection, autonomous crop health scouting.',
+            'Education & Learning: Demystifying difficult scientific concepts through interactive 3D/VR simulations and tactile learning.',
+            'Manufacturing & Industry: Factory machine health monitoring, AI-powered quality inspection, worker safety training.',
+            'Healthcare & Wellness: Medical training simulations, equipment tracking, automated sanitation robotics.',
+            'Environment & Conservation: Freshwater reservoir monitoring, illegal deforestation detection, automated waste sorting.',
+            'Infrastructure & Cities: Bridge and high-rise structural inspection, flood disaster warning, smart road safety.',
+          ],
+        },
+        {
+          type: 'activity',
+          title: 'Simple Activity: Select Your Capstone Problem',
+          content: 'Select one specific problem from your surroundings that you will solve for your Day 79–80 Capstone MVP.',
+        },
+      ],
+    },
+    {
+      id: 'day-78',
+      dayNumber: 78,
+      moduleDayNumber: 3,
+      title: 'Final Questionnaire',
+      theme: 'Questionnaire',
+      duration: '60 min',
+      objective: 'Architect your complete capstone system across all 8 essential engineering design dimensions.',
+      sections: [
+        {
+          type: 'heading',
+          title: 'ARCS Final Capstone Questionnaire',
+          subtitle: 'Answer these 8 architectural questions to blueprint your integrated MVP.',
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q1',
+            prompt: 'Question 1 — What Problem: What real-world problem do you want to solve?',
+            exploreHint: 'Explore: Where does this problem occur and what makes it urgent or costly?',
+            challengeHint: 'Challenge: Can you articulate the core problem statement clearly in exactly one sentence?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q2',
+            prompt: 'Question 2 — Who Has the Problem: Who directly experiences this problem?',
+            exploreHint: 'Explore: Is it a student, farmer, factory worker, civil engineer, physician, emergency responder, or citizen?',
+            challengeHint: 'Challenge: What is this person’s primary frustration, and what specific capability do they need?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q3',
+            prompt: 'Question 3 — What Information Is Needed: What data and information would help understand and solve the problem?',
+            exploreHint: 'Explore: Think about text logs, camera images, sensor telemetry, GPS coordinates, satellite maps, or video streams.',
+            challengeHint: 'Challenge: Which specific ARCS technology will collect or generate each required data stream?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q4',
+            prompt: 'Question 4 — Which Technology Can Help: Choose one or more ARCS technologies to form your solution.',
+            exploreHint: 'Explore: Why did you choose this specific combination over simpler alternatives?',
+            challengeHint: 'Challenge: How do two or more of your chosen technologies hand off data and work in synergy?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q5',
+            prompt: 'Question 5 — What Will the System Do: What processing happens after information enters the system?',
+            exploreHint: 'Explore: Will the system recognize anomalies, monitor thresholds, trigger alerts, generate explanations, move motors, or provide recommendations?',
+            challengeHint: 'Challenge: Can the system execute an automated failsafe or physical response autonomously?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q6',
+            prompt: 'Question 6 — What Will the User See: How will the user interact with and understand the system outputs?',
+            exploreHint: 'Explore: Think about a web dashboard, 3D interactive model, AR camera overlay, GIS map, mobile alert, or voice assistant.',
+            challengeHint: 'Challenge: How can you make the user interface intuitive, responsive, and easy to interpret under stress?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q7',
+            prompt: 'Question 7 — What Will Happen in the Real World: What physical action should occur after a problem is detected?',
+            exploreHint: 'Explore: Who performs the physical action, and how does technology assist or verify the result?',
+            challengeHint: 'Challenge: How can the system log the outcome and confirm that the problem was resolved?',
+          },
+        },
+        {
+          type: 'question',
+          question: {
+            id: 'm16-d78-q8',
+            prompt: 'Question 8 — What Could You Build: What is the smallest working MVP (Minimum Viable Product) you can build in a few days?',
+            exploreHint: 'Explore: What core features are absolutely essential to prove the concept works?',
+            challengeHint: 'Challenge: What complex or nice-to-have features can you intentionally postpone for future versions?',
+          },
+        },
+      ],
+    },
+    {
+      id: 'day-79',
+      dayNumber: 79,
+      moduleDayNumber: 4,
+      title: 'ARCS Integrated MVP',
+      theme: 'Practical Task',
+      duration: '90 min',
+      objective: 'Build and test your integrated ARCS Minimum Viable Product demonstrating input, processing, output, and real-world action.',
+      sections: [
+        {
+          type: 'heading',
+          title: 'Practical Task: Build Your ARCS Integrated MVP',
+        },
+        {
+          type: 'practical',
+          title: 'Task: Integrated Capstone Solution Prototype',
+          practical: {
+            objective: 'Students build a functional MVP demonstrating the end-to-end flow: Problem → Technology Fusion → Input → Processing → Output → Action.',
+            materials: [
+              'Chosen tech stack: Web (React/JS), 3D/AR (Three.js/A-Frame), AI (Gemini/TensorFlow.js), IoT/Robotics (micro:bit/Arduino/simulators), or CAD (Tinkercad)',
+              'Exemplar Case Study: Integrated Smart Agriculture System (Satellite observes farm → Flags zone → IoT sensors measure soil → AI analyzes crop stress → 3D/AR visualizes farm → User triggers irrigation)',
+            ],
+            steps: [
+              'Define the Problem Statement and target user.',
+              'Integrate the Input layer (sensor stream, camera feed, satellite imagery, or user query).',
+              'Implement the Processing logic (AI classifier, threshold check, or navigation algorithm).',
+              'Render the Output interface (interactive dashboard, 3D visualization, AR overlay, or status alerts).',
+              'Simulate or actuate the physical Real-World Action (motor movement, relay switch, or recommended SOP).',
+              'Test the complete pipeline end-to-end and document all test outcomes.',
+            ],
+            expectedOutput: 'A functioning integrated prototype connecting at least two ARCS technology domains to solve an authentic problem.',
+            challenge: 'Incorporate live simulated data transitions to demonstrate how your system responds dynamically when conditions deteriorate.',
+          },
+        },
+      ],
+    },
+    {
+      id: 'day-80',
+      dayNumber: 80,
+      moduleDayNumber: 5,
+      title: 'Final ARCS Technology Discovery Day',
+      theme: 'Challenge & Documentation',
+      duration: '120 min',
+      objective: 'Deliver your 9-part capstone demonstration, complete the 80-Day Reflection, and undertake the Final ARCS Problem-Solver Challenge.',
+      sections: [
+        {
+          type: 'heading',
+          title: 'Day 80: Celebration & Final Discovery Day',
+          subtitle: 'From Technology Explorer to Problem-Solving Creator',
+        },
+        {
+          type: 'concept',
+          title: 'Part 1 — Final Capstone Demonstration',
+          subtitle: 'Present your completed MVP across the 9-point presentation structure:',
+          items: [
+            '1. Our Problem: What specific real-world challenge did we identify?',
+            '2. Our User: Who directly experiences and struggles with this problem?',
+            '3. Our Technology: Which ARCS technologies did we fuse together?',
+            '4. Our Solution: What working system did we build to address it?',
+            '5. How It Works: Live end-to-end demonstration of the input → processing → output pipeline.',
+            '6. Our Experiment: What tests and calibrations did we execute?',
+            '7. Our Failure: What unexpected bug, constraint, or mechanical failure occurred?',
+            '8. Our Improvement: What engineering change did we make to solve it?',
+            '9. Our Future: What would we build next if we had 30 more days?',
+          ],
+        },
+        {
+          type: 'concept',
+          title: 'Part 2 — The 80-Day Reflection Questionnaire',
+          items: [
+            'Question 1: Which technology did you enjoy exploring the most, and why?',
+            'Question 2: Which technology was initially difficult for you, and what breakthrough helped you understand it?',
+            'Question 3: What is one tangible project or prototype you built during the 80 days that you are most proud of?',
+            'Question 4: What real-world problem did you learn how to deconstruct and solve?',
+            'Question 5: What did you learn from something that failed or broke during your experiments?',
+            'Question 6: If you had another 30 days of development, what ambitious feature or project would you build?',
+            'Question 7: Which ARCS technology do you plan to study more deeply in your future career or studies?',
+            'Question 8: What is your vision for a new real-world technology project you want to start next?',
+          ],
+        },
+        {
+          type: 'challenge',
+          title: 'Part 3 — The Final ARCS Challenge: The Problem-First Mandate',
+          content: '“You have learned seven technologies. Now forget the technologies for a moment. Look around you. Find one problem that technology could help solve.”',
+          items: [
+            'PROBLEM: Identify an authentic challenge in your community.',
+            'PERSON AFFECTED: Specify who suffers from this challenge.',
+            'INFORMATION NEEDED: Determine what data must be gathered.',
+            'TECHNOLOGY: Select the right ARCS tools for the job.',
+            'SOLUTION: Design the simplest working prototype.',
+            'ACTION: Deliver meaningful real-world improvement.',
+          ],
+        },
+        {
+          type: 'reflection',
+          title: 'Final Graduation Reflection: The Problem-Solving Creator',
+          content: '“I can identify a problem, understand what information is needed, choose an appropriate technology, build a simple prototype, experiment with it, learn from failure, and explain my solution.” Document your graduation statement in your portfolio.',
+        },
+      ],
+    },
+  ],
+};
